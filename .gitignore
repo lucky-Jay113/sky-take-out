@@ -1,0 +1,21 @@
+**/target/
+.idea
+*.iml
+*.class
+*Test.java
+**/test/
+
+# Local configuration, credentials, and runtime files
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+frontend/nginx/logs/
+frontend/nginx/temp/
+frontend/nginx/nginx.exe
